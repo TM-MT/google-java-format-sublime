@@ -1,0 +1,6 @@
+[
+    {
+        "caption": "Google Java Format: Format File",
+        "command": "google_java_format",
+    },	
+]

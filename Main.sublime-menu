@@ -1,0 +1,45 @@
+[
+    {
+        "caption": "Preferences",
+        "mnemonic": "n",
+        "id": "preferences",
+        "children":
+        [
+            {
+                "caption": "Package Settings",
+                "mnemonic": "P",
+                "id": "package-settings",
+                "children":
+                [
+                    {
+                        "caption": "Google Java Format",
+                        "children":
+                        [
+                            {
+                                "caption": "Preferences: Google Java Format Settings – Default",
+                                "command": "open_file",
+                                "args": {
+                                    "file": "${packages}/google-java-format-sublime/google-java-format-sublime.sublime-settings"
+                                }
+                            },
+                            {
+                                "caption": "Preferences: Google Java Format Settings – User",
+                                "command": "open_file",
+                                "args": {
+                                    "file": "${packages}/User/google-java-format-sublime.sublime-settings"
+                                }
+                            },
+                            {
+                                "caption": "Preferences: Google Java Format Key Bindings – Default (Linux)",
+                                "command": "open_file",
+                                "args": {
+                                    "file": "${packages}/google-java-format-sublime/Default (Linux).sublime-keymap"
+                                }
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+]

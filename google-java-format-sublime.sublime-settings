@@ -1,0 +1,7 @@
+{
+	// Path to google-java-format-xxx-SNAPSHOT-all-deps.jar
+	"formatter-path": "~/.config/sublime-text/Packages/google-java-format-sublime/artifacts/google-java-format-1.8-SNAPSHOT-all-deps.jar",
+	// Syntax List
+	"syntax_list": ["Java"],
+	"timout": 2,
+}
